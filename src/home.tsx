@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import { renderToPipeableStream } from 'react-dom/server'
 
 
 function App() {
@@ -13,25 +10,25 @@ function App() {
 }
 
 
-const Home = () => {
+// const Home = () => {
 
-    return (<>
-
-
-
-        <div className="home-page">
+//     return (<>
 
 
 
-
-
-        </div>
-
-    </>)
+//         <div className="home-page">
 
 
 
-}
+
+
+//         </div>
+
+//     </>)
+
+
+
+// }
 
 
 
