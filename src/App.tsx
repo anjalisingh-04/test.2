@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import axios from 'axios'
+import Home from './home'
 function App() {
 
 
@@ -9,7 +10,8 @@ function App() {
     <>
 
       <Container></Container>
-      {/* <Home></Home> */}
+      <Home></Home>
+
     </>
   )
 }
@@ -48,15 +50,17 @@ const Container = () => {
 
   return (
     <>
+      <div className="container1">
+        <div className="sign">
+          <h2 className='sing-up'>Sign Up</h2>
+          <input className='name' type='name' placeholder='Name' onChange={(e) => setName(e.target.value)} />
+          <input className='email' type='email' placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
+          <input className='password' type='password' placeholder='Password' onChange={(e) => setPassword(e.target.value)} />
+          <br></br>
+          <button className='sub-btn' onClick={handleSumbit}>Submit</button>
 
-      <div className="sign">
-        <h2 className='sing-up'>Sign Up</h2>
-        <input className='name' type='name' placeholder='Name' onChange={(e) => setName(e.target.value)} />
-        <input className='email' type='email' placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
-        <input className='password' type='password' placeholder='Password' onChange={(e) => setPassword(e.target.value)} />
-        <br></br>
-        <button className='sub-btn' onClick={handleSumbit}>Submit</button>
 
+        </div>
 
       </div>
 

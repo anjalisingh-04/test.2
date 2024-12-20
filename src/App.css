@@ -1,7 +1,19 @@
 * {
   padding: 0%;
   margin: 0%;
+
+}
+
+
+.container1 {
+
+  height: 500px;
+  max-width: 100%;
+  border: solid 1px black;
   background-color: rgb(167, 216, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sign {
@@ -9,15 +21,8 @@
   width: 300px;
   border: solid white 1px;
   border-radius: 20px;
-  position: relative;
-  top: 20px;
-  left: 40%;
   box-shadow: 0px 2px 15px 5px rgb(176, 175, 175);
-  background-color: white;
-
-
-
-
+  background-color: white
 }
 
 .sing-up {
@@ -93,7 +98,150 @@
 
 
 .home-page {
-  height: 500px;
+
+
+
   max-width: 100%;
+  border: solid black 1px;
+
+}
+
+.nav {
+  height: 60px;
+  width: 100%;
+  border-bottom: solid 2px white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(83, 141, 228);
+}
+
+
+.name1 {
+  height: 30px;
+  width: 100px;
+
+  margin-right: 400px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.home1 {
+  height: 30px;
+  width: 100px;
+
+  margin-right: 350px;
+  color: white;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.pro {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50px;
+
+}
+
+
+.box-list-table {
+  display: flex;
+
+}
+
+
+.list-box {
+
+  width: 200px;
+
+  background-color: rgb(83, 141, 228);
+}
+
+
+.list {
+  height: 80px;
+  width: 100%;
+  border-bottom: solid white 2px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(83, 141, 228);
+}
+
+
+.about {
+  height: 80px;
+  width: 100%;
+  border-bottom: solid white 2px;
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(83, 141, 228);
+}
+
+
+
+
+.contact {
+  height: 80px;
+  width: 100%;
+  border-bottom: solid white 2px;
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(83, 141, 228);
+}
+
+.table-1 {
+  height: 430px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.table-2 {
   border: solid 1px black;
+  width: 400px;
+  height: 200px;
+
+}
+
+.table-2 th {
+  border: solid black 1px;
+  padding: 10px;
+  align-items: center;
+  background-color: rgb(83, 141, 228);
+
+}
+
+.table-2 td {
+
+
+  border: solid black 1px;
+  padding: 10px;
+  align-items: center;
+
+
+
 }
